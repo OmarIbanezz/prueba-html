@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operaciones Básicas con JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="container">
+
+    <div id="header">
+        CALCULADORA
+    </div>
+
+    <div class="nav">
+        Operaciones Básicas con JavaScript
+    </div>
+
+    <div class="nav">
+        ESCOGER UNA OPERACIÓN Y DAR CLIC EN EL BOTÓN CALCULAR
+    </div>
+
+    <div id="contenido">
+
+        <form class="centrar">
+
+            <input type="text" id="num1" placeholder="Digite número">
+
+            <select id="operador">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+
+            <input type="text" id="num2" placeholder="Digite número">
+
+            <p>
+                <input type="text" id="resultado" placeholder="Resultado" readonly>
+            </p>
+
+            <p>
+                <input type="button" value="Calcular" onclick="f_operar()">
+            </p>
+
+        </form>
+
+    </div>
+
+    <div id="footer">
+        2026 Omar
+    </div>
+
+</div>
+
+<script src="operaciones.js"></script>
+
+</body>
+</html>
